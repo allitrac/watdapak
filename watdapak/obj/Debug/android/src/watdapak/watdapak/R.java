@@ -14,12 +14,41 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int agentWebView=0x7f050001;
-        public static final int webView=0x7f050000;
+        public static final int agentWebView=0x7f05001b;
+        public static final int btnAddActualWork=0x7f050014;
+        public static final int btnAddAssignment=0x7f050019;
+        public static final int btnAddProject=0x7f050002;
+        public static final int btnAddResource=0x7f050016;
+        public static final int btnAddTasks=0x7f05000a;
+        public static final int btnAddTimesheetLine=0x7f050011;
+        public static final int btnCheckInProject=0x7f050005;
+        public static final int btnCheckOutProject=0x7f050004;
+        public static final int btnCreateTimesheet=0x7f05000e;
+        public static final int btnDeleteEnterpriseResource=0x7f050017;
+        public static final int btnDeleteProject=0x7f050003;
+        public static final int btnDeleteTask=0x7f05000c;
+        public static final int btnDeleteTimesheetLine=0x7f050012;
+        public static final int btnGetER=0x7f050015;
+        public static final int btnGetProjects=0x7f050000;
+        public static final int btnGetProjectsById=0x7f050001;
+        public static final int btnGetTimesheetLineWork=0x7f050013;
+        public static final int btnPublishProject=0x7f050008;
+        public static final int btnSubmitTimesheet=0x7f05000f;
+        public static final int btnTimesheetLines=0x7f050010;
+        public static final int btnTimesheetPeriod=0x7f05000d;
+        public static final int btnUpdateProject=0x7f050006;
+        public static final int btnUpdateProjectCollection=0x7f050007;
+        public static final int btnUpdateResource=0x7f050018;
+        public static final int btnUpdateTask=0x7f05000b;
+        public static final int btnViewTasks=0x7f050009;
+        public static final int frame_container=0x7f05001a;
+        public static final int webView=0x7f05001c;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int webauthenticationbroker=0x7f030001;
+        public static final int logged=0x7f030000;
+        public static final int main=0x7f030001;
+        public static final int webauthenticationbroker=0x7f030002;
+        public static final int weview=0x7f030003;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040000;

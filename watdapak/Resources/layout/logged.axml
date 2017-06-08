@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <LinearLayout
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:minWidth="25px"
+  android:minHeight="25px">
+
+    <Button
+        android:id="@+id/btnGetProjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Projects"/>
+
+    <Button
+        android:id="@+id/btnGetProjectsById"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Projects By Id"/>
+
+    <Button
+        android:id="@+id/btnAddProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Project"/>
+
+    <Button
+        android:id="@+id/btnDeleteProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Project"/>
+
+    <Button
+        android:id="@+id/btnCheckOutProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Out Project"/>
+
+    <Button
+        android:id="@+id/btnCheckInProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check In Project"/>
+
+    <Button
+        android:id="@+id/btnUpdateProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Project"/>
+    
+    <Button
+          android:id="@+id/btnUpdateProjectCollection"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Update Project Collection"/>
+
+    <Button
+        android:id="@+id/btnPublishProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publish Project"/>
+
+    <Button
+          android:id="@+id/btnViewTasks"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="View Tasks"/>
+
+    <Button
+          android:id="@+id/btnAddTasks"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Add Tasks"/>
+
+    <Button
+          android:id="@+id/btnUpdateTask"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Update Tasks"/>
+
+    <Button
+          android:id="@+id/btnDeleteTask"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Delete Tasks"/>
+    
+    <Button
+          android:id="@+id/btnTimesheetPeriod"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Timesheet Period"/>
+    
+    <Button
+          android:id="@+id/btnCreateTimesheet"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Create Timesheet"/>
+    
+    <Button
+          android:id="@+id/btnSubmitTimesheet"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Submit Timesheet"/>
+    
+    <Button
+          android:id="@+id/btnTimesheetLines"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Get Timesheet lines"/>
+    
+    <Button
+          android:id="@+id/btnAddTimesheetLine"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Add Timesheet lines"/>
+    
+    <Button
+          android:id="@+id/btnDeleteTimesheetLine"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Delete Timesheet lines"/>
+    
+    <Button
+          android:id="@+id/btnGetTimesheetLineWork"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Get Timesheet Line Work"/>
+    
+    <Button
+          android:id="@+id/btnAddActualWork"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Add Actual Work"/>
+    
+    <Button
+          android:id="@+id/btnGetER"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Get EnterpriseResources"/>
+    
+    <Button
+          android:id="@+id/btnAddResource"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Add Resource"/>
+    
+    <Button
+          android:id="@+id/btnDeleteEnterpriseResource"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Delete Enterprise Resource"/>
+    
+    <Button
+          android:id="@+id/btnUpdateResource"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Update Resource"/>
+    
+    <Button
+          android:id="@+id/btnAddAssignment"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Add Assignment"/>
+
+  </LinearLayout>
+</ScrollView>

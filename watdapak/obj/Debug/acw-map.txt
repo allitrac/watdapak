@@ -6,6 +6,14 @@ watdapak.MainActivity, watdapak;md5bee9d2d39ddba37573dd68835d6b41e9.MainActivity
 watdapak.MainActivity, watdapak, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bee9d2d39ddba37573dd68835d6b41e9.MainActivity
 watdapak.MainActivity;md5bee9d2d39ddba37573dd68835d6b41e9.MainActivity
 watdapak.MainActivity;md5bee9d2d39ddba37573dd68835d6b41e9.MainActivity
+watdapak.Fragments.home, watdapak;md5d581fc21b83beac28104f808f1b93c5a.home
+watdapak.Fragments.home, watdapak, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d581fc21b83beac28104f808f1b93c5a.home
+watdapak.Fragments.home;md5d581fc21b83beac28104f808f1b93c5a.home
+watdapak.fragments.home;md5d581fc21b83beac28104f808f1b93c5a.home
+watdapak.Fragments.webview, watdapak;md5d581fc21b83beac28104f808f1b93c5a.webview
+watdapak.Fragments.webview, watdapak, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d581fc21b83beac28104f808f1b93c5a.webview
+watdapak.Fragments.webview;md5d581fc21b83beac28104f808f1b93c5a.webview
+watdapak.fragments.webview;md5d581fc21b83beac28104f808f1b93c5a.webview
 Microsoft.IdentityModel.Clients.ActiveDirectory.CallBackHandler, Microsoft.IdentityModel.Clients.ActiveDirectory.Platform;md5c81d503f85bbb4aa671a46ce48729fea.CallBackHandler
 Microsoft.IdentityModel.Clients.ActiveDirectory.CallBackHandler, Microsoft.IdentityModel.Clients.ActiveDirectory.Platform, Version=3.13.9.1126, Culture=neutral, PublicKeyToken=31bf3856ad364e35;md5c81d503f85bbb4aa671a46ce48729fea.CallBackHandler
 Microsoft.IdentityModel.Clients.ActiveDirectory.CallBackHandler;md5c81d503f85bbb4aa671a46ce48729fea.CallBackHandler
