@@ -45,7 +45,7 @@ namespace watdapak.Fragments
             getProj.Click += delegate { main.GetProjects(); };
 
             getProjById = rootView.FindViewById<Button>(Resource.Id.btnGetProjectsById);
-            getProjById.Click += delegate { main.GetProjectById(); };
+            getProjById.Click += delegate { main.getProjectEPT(); };
 
             addProj = rootView.FindViewById<Button>(Resource.Id.btnAddProject);
             addProj.Click += delegate { main.addProject(); };

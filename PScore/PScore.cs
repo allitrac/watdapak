@@ -13,20 +13,19 @@ namespace PScore
     {
 
         private string siteURL = "https://sharepointevo.sharepoint.com/sites/mobility", psRestUrl = "/_api/ProjectServer";
-        //private string rtFa = null, FedAuth = null;
+        public string rtFa { get; set; }
+        public string FedAuth { get; set; }
         HttpClient client;
 
-
-
-        //public void setCredentials(string rtFa, string FedAuth) {
-
-        //    this.rtFa = rtFa;
-        //    this.FedAuth = FedAuth;
-
-        //}
+        public PsCore(string rtFa, string FedAuth) {
+            this.rtFa = rtFa;
+            this.FedAuth = FedAuth;
+        }
 
         //used for GetAsync
         private void setClient(HttpClientHandler handler) {
+            if(client != null)
+                client = null;
 
             var mediaType = new MediaTypeWithQualityHeaderValue("application/json");
             mediaType.Parameters.Add(new NameValueHeaderValue("odata", "verbose"));
@@ -39,6 +38,8 @@ namespace PScore
         //used for PostAsync
         //method 0 = no additional headers, 1 = MERGE, 2 = PUT, 3 = DELETE
         private void setClient(HttpClientHandler handler, string formDigest, int method) {
+            if(client != null)
+                client = null;
 
             var mediaType = new MediaTypeWithQualityHeaderValue("application/json");
             mediaType.Parameters.Add(new NameValueHeaderValue("odata", "verbose"));
@@ -46,6 +47,8 @@ namespace PScore
             client = new HttpClient(handler);
             client.DefaultRequestHeaders.Accept.Add(mediaType);
             client.DefaultRequestHeaders.Add("X-RequestDigest", formDigest);
+            if (method == 1)
+                client.DefaultRequestHeaders.Add("X-HTTP-METHOD","MERGE");
 
         }
 

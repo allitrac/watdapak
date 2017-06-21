@@ -339,14 +339,14 @@ namespace watdapak
             //var contents = new StringContent(body, Encoding.UTF8, "application/json");
             //var body = "{\"__metadata\":{\"type\":\"PS.test0001\"},\"Name\":\"update name\"}";
 
-            var body = "{ \"__metadata\":{ \"type\":\"PS.DraftProject\"}, 'ProjectName':'UpdateTest'}";
+            var body = "{ \"__metadata\":{ \"type\":\"PS.DraftProject\"}, 'Name':'UpdateTest'}";
             var contents = new StringContent(body);
             contents.Headers.ContentType = MediaTypeHeaderValue.Parse("application/json;odata=verbose");
 
             try
             {
 
-                var postResult = await client.PostAsync(siteUrl + "/sites/mobility/_api/ProjectServer/Projects('3cf12a9f-f948-e711-80cc-00155d0cd408')/Draft/update()", contents);
+                var postResult = await client.PostAsync(siteUrl + "/sites/mobility/_api/ProjectServer/Projects('9f6bed59-604b-e711-80cd-00155d08a911')/Draft/update()", contents);
                 var result = postResult.EnsureSuccessStatusCode();
                 if (result.IsSuccessStatusCode) { 
                     Log.Info("Projectz Update", "update successful");
@@ -656,7 +656,7 @@ namespace watdapak
             try
             {
 
-                var postResult = await client.PostAsync(siteUrl + "/sites/mobility/_api/ProjectServer/TimesheetPeriods('5be36a28-c90e-e711-80d2-00155d0cbd04')/createTimesheet()", contents);
+                var postResult = await client.PostAsync(siteUrl + "/sites/mobility/_api/ProjectServer/TimesheetPeriods('5fe36a28-c90e-e711-80d2-00155d0cbd04')/createTimesheet()", contents);
                 var result = postResult.EnsureSuccessStatusCode();
                 if (result.IsSuccessStatusCode)
                     Log.Info("Timesheetz create", "mana og create");
@@ -691,7 +691,7 @@ namespace watdapak
             try
             {
 
-                var postResult = await client.PostAsync(siteUrl + "/sites/mobility/_api/ProjectServer/TimesheetPeriods('5be36a28-c90e-e711-80d2-00155d0cbd04')/Timesheet/submit('I am submitting this timesheet through my phone')", contents);
+                var postResult = await client.PostAsync(siteUrl + "/sites/mobility/_api/ProjectServer/TimesheetPeriods('5fe36a28-c90e-e711-80d2-00155d0cbd04')/Timesheet/submit('I am submitting this timesheet through my phone')", contents);
                 var result = postResult.EnsureSuccessStatusCode();
                 if (result.IsSuccessStatusCode)
                     Log.Info("Timesheetz submit", "mana og submit");
@@ -1022,8 +1022,8 @@ namespace watdapak
             client.DefaultRequestHeaders.Accept.Add(mediaType); ;
             client.DefaultRequestHeaders.Add("X-RequestDigest", formDigest);
 
-            //var body = "{'parameters':{ 'Id':'" + Guid.NewGuid() + "','ResourceId':'" + new Guid("ed76d01e-1403-e711-80d4-00155d085706") + "', 'TaskId':'e1e62ba1-4706-4d5b-9a48-83a1b3b301cc' } }";
-            var body = "{'parameters':{ 'ResourceId':'4af6b103-13ff-e611-80d3-00155d0c2609', 'TaskId':'ea288d31-748e-4c98-b149-d714aacf790e' } }";
+            var body = "{'parameters':{ 'Id':'" + Guid.NewGuid() + "','ResourceId':'" + new Guid("ed76d01e-1403-e711-80d4-00155d085706") + "', 'TaskId':'e1e62ba1-4706-4d5b-9a48-83a1b3b301cc' } }";
+            //var body = "{'parameters':{ 'ResourceId':'4af6b103-13ff-e611-80d3-00155d0c2609', 'TaskId':'ea288d31-748e-4c98-b149-d714aacf790e' } }";
             var contents = new StringContent(body, Encoding.UTF8, "application/json");
 
             try

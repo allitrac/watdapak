@@ -191,16 +191,6 @@ namespace watdapak.Models
             [JsonProperty("WinprojVersion")]
             public string WinprojVersion { get; set; }
 
-            //_api/ProjectData/Projects
-            [JsonProperty("ProjectName")]
-            public string ProjectName { get; set; }
-            [JsonProperty("ProjectDescription")]
-            public string ProjectDescription { get; set; }
-            [JsonProperty("EnterpriseProjectTypeId")]
-            public string EnterpriseProjectTypeId { get; set; }
-
-
-
     }
         public class Metadata
         {

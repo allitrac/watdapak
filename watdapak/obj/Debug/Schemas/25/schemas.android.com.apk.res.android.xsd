@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>5/17/2017 3:45:41 PM</xs:documentation>
+    <xs:documentation>6/10/2017 6:45:19 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -1198,9 +1198,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -1339,9 +1336,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -2993,9 +2987,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -3036,9 +3027,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -3079,9 +3067,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -3122,9 +3107,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -3627,6 +3609,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -3666,6 +3649,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -3996,9 +3980,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -4272,6 +4253,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -4795,6 +4777,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -4834,9 +4817,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -4877,9 +4857,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -4920,9 +4897,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -4963,9 +4937,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -5006,9 +4977,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -5049,9 +5017,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -6009,6 +5974,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -6337,6 +6303,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -6440,9 +6407,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -6483,9 +6447,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -7480,9 +7441,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -8861,9 +8819,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="match_parent" />
             <xs:enumeration value="wrap_content" />
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -9218,9 +9173,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="match_parent" />
             <xs:enumeration value="wrap_content" />
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -9614,9 +9566,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -10156,9 +10105,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -11054,6 +11000,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -11093,6 +11040,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -11700,6 +11648,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -11739,6 +11688,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -11778,6 +11728,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -16717,9 +16668,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -16800,6 +16748,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -16839,9 +16788,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -16940,7 +16886,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkedTextView1" />
-            <xs:enumeration value="@id/item_touch_helper_previous_elevation" />
+            <xs:enumeration value="@id/agentWebView" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
@@ -17270,6 +17216,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -18090,9 +18037,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -18133,9 +18077,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -18176,9 +18117,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -18219,9 +18157,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -18495,6 +18430,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -18812,9 +18748,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -18855,9 +18788,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -18898,9 +18828,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -18941,9 +18868,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -19848,9 +19772,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="match_parent" />
             <xs:enumeration value="wrap_content" />
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -19891,9 +19812,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -19934,9 +19852,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -19977,9 +19892,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -20020,9 +19932,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -20063,9 +19972,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -20106,9 +20012,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -20149,9 +20052,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -20206,9 +20106,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="match_parent" />
             <xs:enumeration value="wrap_content" />
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -20570,9 +20467,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -20989,6 +20883,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -21145,9 +21040,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -21188,6 +21080,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -21245,9 +21138,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -21324,9 +21214,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -21447,6 +21334,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -21504,9 +21392,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -21565,9 +21450,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -22142,6 +22024,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -24040,6 +23923,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -24984,9 +24868,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -25027,9 +24908,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -25070,9 +24948,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -25113,9 +24988,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -25156,9 +25028,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -25199,9 +25068,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -25242,9 +25108,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -25729,9 +25592,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -26017,6 +25877,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -26995,6 +26856,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -27481,9 +27343,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -28573,9 +28432,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -28616,9 +28472,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -30072,9 +29925,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -30115,9 +29965,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -30401,6 +30248,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -30872,9 +30720,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -31665,6 +31510,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -32845,6 +32691,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -33442,9 +33289,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -33485,9 +33329,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -34500,6 +34341,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -34539,6 +34381,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -38094,6 +37937,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -38133,6 +37977,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -38883,9 +38728,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -40066,9 +39908,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -40109,9 +39948,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -40615,6 +40451,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -40758,6 +40595,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -40797,9 +40635,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -40840,9 +40675,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -40883,9 +40715,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -40926,9 +40755,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -40969,9 +40795,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -41337,9 +41160,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -41780,9 +41600,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -41823,9 +41640,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -41906,6 +41720,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -41945,9 +41760,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -41988,9 +41800,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -42031,9 +41840,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -42603,9 +42409,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
@@ -43997,9 +43800,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
-            <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
             <xs:enumeration value="@android:dimen/app_icon_size" />
             <xs:enumeration value="@android:dimen/dialog_min_width_major" />
             <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
